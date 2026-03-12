@@ -1,5 +1,5 @@
 --VERSION 4.2--
---BRITISH ENGLISH--
+--GEORGIAN--
 
 local TowerData = require(game.ReplicatedFirst:WaitForChild('DataModules'):WaitForChild('TowerData'))
 local SpellData = require(game.ReplicatedFirst.DataModules:WaitForChild('SpellData'))
@@ -11,8 +11,8 @@ module.gui = {}
 
 module.gui.basic = {
 
-	["default"] = "DEFAULT",
-	["validate"] = "VALIDATE",
+	["default"] = "ნაგულისხმევი",
+	["validate"] = "დადასტურება",
 
 }
 
@@ -26,8 +26,8 @@ module.gui.switcher = {
 	--NEW
 	["refreshbutton"] = "REFRESH",
 	["failed"] = "Teleport failed!",
-	["classic"] = "Classic Tower",
-	["pro"] = "Pro Tower",
+	["classic"] = "ჩვეულებრივთა კოშკი",
+	["pro"] = "პროფესიონალურთა კოშკი",
 	["custom"] = "Custom Tower",
 	["noVR"] = "VR Free Tower",
 	--END NEW
@@ -123,8 +123,8 @@ module.gui.stats = {
 	["best"] = "BEST TIME OVERALL",
 	["norecord"] = "[no record]",
 
-	["2124486274"] = "Prank the Creator",
-	["1803533030753957"] = "Black Hole",
+	["2124486274"] = "ეხუმრე შექმნელს",
+	["1803533030753957"] = "შავი ხვრელი",
 	["2124480173"] = "Wicked's Treason",
 	["2124480172"] = "Joker's Trick",
 	["2124637294"] = "Drifter's Voyage",
@@ -144,9 +144,9 @@ module.gui.stats = {
 	["2124826880"] = "Possessed Fate",
 	["3731010929572663"] = "Hypnotised Dream",
 	["840574993122888"] = "Reflected Destiny",
-	["2124913225"] = "Architect's Design",
+	["2124913225"] = "არქიტექტორის დიზაინი",
 	["2124702954"] = "Rootkit Installed",
-	["2124702945"] = "Destroy Everything",
+	["2124702945"] = "გაანადგურე ყველაფერი",
 	["2124702946"] = "Order Restored",
 	["128721686760593"] = "You Spin me Round and Round.",
 	["2124702952"] = "I'll Take the Elevator",
@@ -155,9 +155,9 @@ module.gui.stats = {
 	["2124702950"] = "Illuminati Confirmed",
 	["2124702951"] = "Mine, Mine all MINE!",
 	["1165646024608180"] = "We are One.",
-	["2303731210592278"] = "Rise, Rise, RISE!",
+	["2303731210592278"] = "ამაღლდი, ამაღლდი, ᲐᲛᲐᲦᲚᲓᲘ!",
 	["2124702949"] = "Excommunication",
-	["2124702943"] = "Pranking is Living",
+	["2124702943"] = "ხუმრობა არის ცხოვრება",
 	["2124702948"] = "Spells are Overrated",
 	["2124826876"] = "Perfect Circle",
 	["2124645341"] = "Secret Badge",
@@ -269,9 +269,9 @@ module.gui.menu = {
 --end screen tutorial
 module.gui.tutorial = {
 	
-	["complete"] = "CLIMB COMPLETED!",
+	["complete"] = "ასვლა შესრულებულია!",
 	["choose"] = "Please choose your first alignment!",
-	["difficulty"] = "Difficulty:",
+	["difficulty"] = "სირთულე:",
 	
 }
 
@@ -315,24 +315,24 @@ module.spells.names = {
 	["jokeraltevent"] = "Flip Them All",
 
 	--WICKED
-	["destroy"] = "Destroy Stairs",
-	["destroyabove"] = "Destroy Above Stairs",
-	["bend"] = "Bend Stairs Up",
-	["damage"] = "Damage Above Stairs",
-	["flatten"] = "Bend Opposite Stairs Down",
-	["wall"] = "Create Wall" ,
+	["destroy"] = "გაანადგურე საფეხურები",
+	["destroyabove"] = "გაანადგურე ზედა საფეხურები",
+	["bend"] = "მოღუნე საფეხურები მაღლა",
+	["damage"] = "დააზიანე ზედა საფეხურები",
+	["flatten"] = "მოღუნე საპირისპირო საფეხურები ქვემოთ",
+	["wall"] = "შექმენი კედელი" ,
 
-	["bender"] = "Bender",
-	["wickedevent"] = "Destruction",
-	["wickedaltevent"] = "Purge",
+	["bender"] = "მომღუნველი",
+	["wickedevent"] = "განადგურება",
+	["wickedaltevent"] = "გასუფთავება",
 
 	--KEEPER
-	["move"] = "Move Stairs",
-	["rotate"] = "Rotate Stairs",
-	["moveup"] = "Move Stairs Up",
+	["move"] = "აამოძრავე საფეხურები",
+	["rotate"] = "შემოაბრუნე საფეხურები",
+	["moveup"] = "აამოძრავე საფეხურები მაღლა",
 	["movedown"] = "Restore Stairs",
-	["moverandom"] = "Random Above Move",
-	["rig"] = "Random Move",
+	["moverandom"] = "შემთხვევითი ზედა მოძრაობა",
+	["rig"] = "შემთხვევითი მოძრაობა",
 
 	["ascension"] = "Ascension",
 	["keeperevent"] = "Reshuffle",
