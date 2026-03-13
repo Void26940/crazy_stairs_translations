@@ -51,17 +51,17 @@ module.gui.serversettings = {
 	["DroneBlock"] = "Cursed intersection chance for every empty intersection encounter (percent)",
 	["DroneCurse"] = "Cursed stairs chance for creation and normal stairs encounter (percent)",
 
-	["Tower"] = "TOWER SETTINGS",
-	["TowerReadOnly"] = "TOWER SETTINGS (read only)",
-	["InfMode"] = "Infinite Mode (cannot be changed during a race or a regeneration)",
-	["CasualPlayers"] = "Casual players allowed to cast spells",
-	["Regeneration"] = "Auto Staircase generation after a Wicked's Purge (will not work in the infinite mode)",
-	["EvenLevels"] = "Even Levels Restricted",
-	["OrbMoves"] = "Endgame orb changes position",
-	["InfRegeneration"] = "Auto Staircase generation on new server, tower levels change and after the infinite race",
+	["Tower"] = "კოშკთა პარამეტრები",
+	["TowerReadOnly"] = "კოშკთა პარამეტრები (წაკითხვა)",
+	["InfMode"] = "სამუდამო რეჟიმი (არ იცვლება რეისის ან რეგენერაციის დროს)",
+	["CasualPlayers"] = "ჩვეულებრივი მოთამაშეები უფლება აქვთ რომ გამოოყენონ ჯადოქრობები",
+	["Regeneration"] = "ავტო საფეხურების რეგენერაცია Wicked-ის გასუფთავების შემდეგ (არ იმუშავებს სამუდამო რეჟიმში)",
+	["EvenLevels"] = "ლუწი ტურები გამორიცხულია",
+	["OrbMoves"] = "დასასრულთა სფერო ცვლის პოზიციას",
+	["InfRegeneration"] = "ავტო საფეხურების გენერაცია ახალ სერვერებში, კოშკთა ტურების ცვლილება და სამუდამო რეისის შემდეგ",
 	--deprecated
 	--["TowerLevels"] = "Tower levels (or active levels in the infinite mode). Cannot be changed during a race or a regeneration",
-	["TowerSize"] = "Tower grid size (experimental)",
+	["TowerSize"] = "კოშკთა ბადის ზომა (ექსპერიმენტური)",
 	["RaceDuration"] = "Maximum Race Duration. Will not affect current race. (seconds)",
 	["InfStart"] = "Initial Infinite mode round interval (2 levels are created each round) (seconds)",
 	["InfReduction"] = "Infinite mode interval reduction (each round is shorter by) (seconds)",
@@ -123,7 +123,7 @@ module.gui.stats = {
 	["best"] = "BEST TIME OVERALL",
 	["norecord"] = "[no record]",
 
-	["2124486274"] = "ეხუმრე შექმნელს",
+	["2124486274"] = "ეხუმრე შემქმნელს",
 	["1803533030753957"] = "შავი ხვრელი",
 	["2124480173"] = "Wicked's Treason",
 	["2124480172"] = "Joker's Trick",
@@ -153,7 +153,7 @@ module.gui.stats = {
 	["3121101516427751"] = "The Entanglement",
 	["2124702942"] = "Leave no Noob Behind",
 	["2124702950"] = "Illuminati Confirmed",
-	["2124702951"] = "Mine, Mine all MINE!",
+	["2124702951"] = "ჩემია, ჩემია, ᲧᲕᲔᲚᲐ ᲩᲔᲛᲘᲐ!",
 	["1165646024608180"] = "We are One.",
 	["2303731210592278"] = "ამაღლდი, ამაღლდი, ᲐᲛᲐᲦᲚᲓᲘ!",
 	["2124702949"] = "Excommunication",
@@ -270,7 +270,7 @@ module.gui.menu = {
 module.gui.tutorial = {
 	
 	["complete"] = "ასვლა შესრულებულია!",
-	["choose"] = "Please choose your first alignment!",
+	["choose"] = "გთხოვთ აირჩიოთ თქვენი პირველი პერსონაჟი!",
 	["difficulty"] = "სირთულე:",
 	
 }
@@ -321,7 +321,6 @@ module.spells.names = {
 	["damage"] = "დააზიანე ზედა საფეხურები",
 	["flatten"] = "მოღუნე საპირისპირო საფეხურები ქვემოთ",
 	["wall"] = "შექმენი კედელი" ,
-
 	["bender"] = "მომღუნველი",
 	["wickedevent"] = "განადგურება",
 	["wickedaltevent"] = "გასუფთავება",
